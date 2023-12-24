@@ -1,0 +1,12 @@
+Title=Rental Shared Application
+Subtitle=Shared Accommodation cum Paying Guest Agreement
+Agreement Paragraph=This is a legally binding agreement. It is intended to promote household harmony by clarifying the expectations and responsibilities of the Owner or Principal Tenant (Landlords) and Tenant when they share the same home. The term Landlord refers to either Owner or Principal Tenant. Landlord shall provide a copy of this executed (signed) document to the Tenant, as required by law
+Section=Parties
+Agreement Header=Landlord Details
+Agreement Paragraph=Landlord/Property Owner Name: [Full Name]
+Agreement Paragraph=Address of the Property: [Address]
+Agreement Header=Paying Guest Details
+Agreement Paragraph=Paying Guest Name: [Full Name]
+Agreement Paragraph=Permanent Address: [Address]
+Agreement Paragraph=Contact Number: [Phone Number]
+Agreement Paragraph=Email Address: [Email]
