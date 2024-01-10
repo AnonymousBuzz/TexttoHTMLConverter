@@ -1,12 +1,30 @@
-Title=Rental Shared Application
-Subtitle=Shared Accommodation cum Paying Guest Agreement
-Agreement Paragraph=This is a legally binding agreement. It is intended to promote household harmony by clarifying the expectations and responsibilities of the Owner or Principal Tenant (Landlords) and Tenant when they share the same home. The term Landlord refers to either Owner or Principal Tenant. Landlord shall provide a copy of this executed (signed) document to the Tenant, as required by law
-Section=Parties
-Agreement Header=Landlord Details
-Agreement Paragraph=Landlord/Property Owner Name: [Full Name]
-Agreement Paragraph=Address of the Property: [Address]
-Agreement Header=Paying Guest Details
-Agreement Paragraph=Paying Guest Name: [Full Name]
-Agreement Paragraph=Permanent Address: [Address]
-Agreement Paragraph=Contact Number: [Phone Number]
-Agreement Paragraph=Email Address: [Email]
+Header=Rental Shared Application,Shared Accommodation cum Paying Guest Agreement
+
+Box=household-rules
+Title=Household Rules
+
+Parties=
+additionalHeader=Utility Expenses: <b>Included with Limit Threshold</b>
+additionalParagraph=The threshold will be billed to the Paying Guest.
+additionalHeader=Governing Law
+additionalParagraph= This Agreement shall be governed by and construed in accordance with the laws of the State of Texas, United States of America.
+additionalHeader=
+additionalParagraph= 
+additionalHeader=
+additionalParagraph=
+
+Form=
+Input=Cleaning :,Keep your room 
+Input=Kitchen Use :,Keep Kitchen Dirty.
+Input=Overnight Guests :,houseovernightGuests.
+Input=Use of washer / dryer / appliances :,houseuseOfAppliances
+Input=Smoking :,No Smoking
+Input=Use of common areas :,Keep Common Area Clean.
+Input=Use of common areas :,houseuseOfCommonAreas
+Input=Alcohol/drug use :,Not Allowed in Property
+
+Close=Form
+Close=Box
+
+
+

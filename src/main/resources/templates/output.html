@@ -1,14 +1,81 @@
 <html><body>
-<h1>Rental Shared Application</h1>
-<h2>Shared Accommodation cum Paying Guest Agreement</h2>
-<p>This is a legally binding agreement. It is intended to promote household harmony by clarifying the expectations and responsibilities of the Owner or Principal Tenant (Landlords) and Tenant when they share the same home. The term Landlord refers to either Owner or Principal Tenant. Landlord shall provide a copy of this executed (signed) document to the Tenant, as required by law</p>
-<h3>Parties</h3>
-<p><strong>Landlord Details</strong></p>
-<p>Landlord/Property Owner Name: [Full Name]</p>
-<p>Address of the Property: [Address]</p>
-<p><strong>Paying Guest Details</strong></p>
-<p>Paying Guest Name: [Full Name]</p>
-<p>Permanent Address: [Address]</p>
-<p>Contact Number: [Phone Number]</p>
-<p>Email Address: [Email]</p>
-</body></html>
+<div class="row" >
+        <div >
+            <h4>Rental Shared Application</h4>            <h4>Shared Accommodation cum Paying Guest Agreement</h4>        </div>
+       
+    </div><div class="formborder" id="household-rules"><legend>
+      <h3>Household Rules</h3>
+    </legend>
+<div class="formborder">
+    <legend>
+        <h3> </h3>
+    </legend>
+    <div class="form-group" id="guest-details">
+        <div class="row">
+            <div class="col-md-6">Landlord/Property Owner Name<span class="star" style="color: red;">*</span> :
+                <input id="principalOwner" th:text="${leaseObj.principalOwner}" type="text" class="form-control" placeholder=" ">
+                <span id="principal_owner"></span>
+            </div>
+        </div>
+    </div>
+</div><div class="formborder">
+    <legend>
+        <h3> </h3>
+    </legend>
+    <div class="form-group" id="tenant-details">
+        <div class="row">
+            <div class="col-md-6">Tenant Name<span class="star" style="color: red;">*</span> :
+                <input id="tenantName" th:text="${leaseObj.tenantName}" type="text" class="form-control" placeholder=" ">
+                <span id="tenant_name"></span>
+            </div>
+        </div>
+    </div>
+</div><div class="form-group">
+          <div class="row">
+            <h4>Utility Expenses: <b>Included with Limit Threshold</b></h4>          </div>        </div><div class="form-group">
+          <div class="row">
+            <p> The threshold will be billed to the Paying Guest. </p>
+          </div>
+        </div><div class="form-group">
+          <div class="row">
+            <h4>Governing Law</h4>          </div>        </div><div class="form-group">
+          <div class="row">
+            <p> This Agreement shall be governed by and construed in accordance with the laws of the State of Texas, United States of America. </p>
+          </div>
+        </div><div class="form-group">
+          <div class="row">
+            <h4></h4>          </div>        </div><div class="form-group">
+          <div class="row">
+            <p>  </p>
+          </div>
+        </div><div class="form-group">
+          <div class="row">
+            <h4></h4>          </div>        </div><div class="form-group">
+          <div class="row">
+            <p>  </p>
+          </div>
+        </div><div class="form-group"> <div class="row"><div class="col-md-6">Cleaning :
+          <input id="cleaning :" th:text="${leaseObj. cleaning :}" type="text" class="form-control" placeholder=" " disabled="disabled" 
+          value = "Keep your room">
+        </div><div class="col-md-6">Kitchen Use :
+          <input id="kitchen use :" th:text="${leaseObj. kitchen use :}" type="text" class="form-control" placeholder=" " disabled="disabled" 
+          value = "Keep Kitchen Dirty.">
+        </div><div class="col-md-6">Overnight Guests :
+          <input id="overnight guests :" th:text="${leaseObj. overnight guests :}" type="text" class="form-control" placeholder=" " disabled="disabled" 
+          value = "houseovernightGuests.">
+        </div><div class="col-md-6">Use of washer / dryer / appliances :
+          <input id="use of washer / dryer / appliances :" th:text="${leaseObj. use of washer / dryer / appliances :}" type="text" class="form-control" placeholder=" " disabled="disabled" 
+          value = "houseuseOfAppliances">
+        </div><div class="col-md-6">Smoking :
+          <input id="smoking :" th:text="${leaseObj. smoking :}" type="text" class="form-control" placeholder=" " disabled="disabled" 
+          value = "No Smoking">
+        </div><div class="col-md-6">Use of common areas :
+          <input id="use of common areas :" th:text="${leaseObj. use of common areas :}" type="text" class="form-control" placeholder=" " disabled="disabled" 
+          value = "Keep Common Area Clean.">
+        </div><div class="col-md-6">Use of common areas :
+          <input id="use of common areas :" th:text="${leaseObj. use of common areas :}" type="text" class="form-control" placeholder=" " disabled="disabled" 
+          value = "houseuseOfCommonAreas">
+        </div><div class="col-md-6">Alcohol/drug use :
+          <input id="alcohol/drug use :" th:text="${leaseObj. alcohol/drug use :}" type="text" class="form-control" placeholder=" " disabled="disabled" 
+          value = "Not Allowed in Property">
+        </div></div></div></div></body></html>
